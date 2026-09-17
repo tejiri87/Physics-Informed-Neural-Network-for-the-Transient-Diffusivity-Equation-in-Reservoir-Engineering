@@ -75,7 +75,7 @@ This repository is tailored for advanced numerical modeling and software integra
 
 ## Author & References
 
-* **Documentation & Custom Inverse Formulation:** Igbereyivwe Oghenetejiri Derek (Tejiri).
+* **Documentation & Custom Inverse Formulation:** Igbereyivwe Oghenetejiri Derek.
 
 
 * **Original Methodology:** Badawi, D., & Gildin, E. (2023). *Physics-Informed Neural Network for the Transient Diffusivity Equation in Reservoir Engineering*.
