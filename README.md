@@ -4,7 +4,7 @@
 
 This repository contains the numerical models and documentation for applying Physics-Informed Neural Networks (PINNs) to solve the 1D Cartesian and 2D cylindrical radial transient diffusivity equations. By transforming the traditional partial differential equations (PDEs) governing fluid flow in porous media into a loss function optimization problem, this project provides a continuous spatiotemporal solution framework that circumvents the limitations of discrete numerical mesh grids.
 
-The primary engineering breakthrough demonstrated in this repository is the ability to bypass traditional shut-in buildup tests. Using an advanced simultaneous inverse PDE formulation, the model successfully estimates missing reservoir physics—specifically, average permeability ($k$) and distance to sealing boundaries ($x_e$)—directly from noisy production flowrate history.
+Using an advanced simultaneous inverse PDE formulation, the model successfully estimates missing reservoir physics—specifically, average permeability ($k$) and distance to sealing boundaries ($x_e$)—directly from noisy production flowrate history.
 
 ## Key Capabilities & Technical Architecture
 
@@ -67,11 +67,9 @@ $$\frac{1}{t_{D,max}}\frac{\partial\overline{P}}{\partial\overline{t}}=\frac{1}{
 
 ## Tech Stack & Implementation Notes
 
-This repository is tailored for advanced numerical modeling and software integration in reservoir engineering.
-
 * **Core Framework:** Python, utilizing PyTorch and DeepXDE for robust neural network architecture and auto-differentiation graph compilation.
 * **Data Handling:** NumPy and SciPy for tensor manipulation and mathematical validation.
-* **Visualization:** Plotly and Matplotlib for plotting multi-trace pressure transient episodes, flowrate histories, and inverse parameter convergence dashboards.
+* **Visualization:** Matplotlib for plotting multi-trace pressure transient episodes, flowrate histories, and inverse parameter convergence dashboards.
 
 ## Author & References
 
