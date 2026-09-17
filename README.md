@@ -6,7 +6,7 @@ This repository contains the numerical models and documentation for applying Phy
 
 Using an advanced simultaneous inverse PDE formulation, the model successfully estimates missing reservoir physics, specifically average permeability ($k$) and distance to sealing boundaries ($x_e$), directly from noisy production flowrate history.
 
-## Key Capabilities & Technical Architecture
+## Workflow & Technical breakdown
 
 * **Simultaneous Inverse Problem Resolution:** Unlike traditional sequential solvers, this architecture utilizes custom trainable variables ($\eta_k$ for permeability and $\eta_l$ for boundary distance) to resolve inverse parameters simultaneously, drastically reducing training time and converging on true reservoir properties (e.g., 120 md permeability and 500 m boundary distance) even with noisy production data.
 
@@ -65,11 +65,11 @@ $$\frac{1}{t_{D,max}}\frac{\partial\overline{P}}{\partial\overline{t}}=\frac{1}{
 
 
 
-## Tech Stack & Implementation Notes
+## Tools used
 
 * **Core Framework:** Python, utilizing PyTorch and DeepXDE for robust neural network architecture and auto-differentiation graph compilation.
 * **Data Handling:** NumPy and SciPy for tensor manipulation and mathematical validation.
-* **Visualization:** Matplotlib for plotting multi-trace pressure transient episodes, flowrate histories, and inverse parameter convergence dashboards.
+* **Visualization:** Matplotlib for plotting multi-trace pressure transient episodes, flowrate histories, and inverse parameter convergence plots.
 
 ## Author & References
 
