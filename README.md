@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the numerical models and documentation for applying Physics-Informed Neural Networks (PINNs) to solve the 1D Cartesian and 2D cylindrical radial transient diffusivity equations. By transforming the traditional partial differential equations (PDEs) governing fluid flow in porous media into a loss function optimization problem, this project provides a continuous spatiotemporal solution framework that circumvents the limitations of discrete numerical mesh grids.
+This repository contains the numerical models and documentation for applying Physics-Informed Neural Networks (PINNs) to solve the 1D Cartesian and 2D cylindrical radial transient diffusivity equations. By transforming the Partial Differential Equations (PDEs) governing fluid flow in porous media into a loss function optimization problem.
 
 Using an advanced simultaneous inverse PDE formulation, the model successfully estimates missing reservoir physics, specifically average permeability ($k$) and distance to sealing boundaries ($x_e$), directly from noisy production flowrate history.
 
